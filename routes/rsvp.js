@@ -2,7 +2,7 @@ import express from "express";
 import RSVP from "../models/RSVP.js";
 
 const router = express.Router();
-const { parse } = require('json2csv');
+import { parse } from 'json2csv';
 
 
 // POST: Submit RSVP
